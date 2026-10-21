@@ -7,53 +7,50 @@ This document visualizes the current manual expense approval process (AS-IS) and
 ## 1. AS-IS Process (Current State)
 The current process is manual, heavily reliant on emails, and lacks real-time visibility. 
 
-```mermaid
-graph TD
-    A[Employee spends money] --> B[Collects physical receipt]
-    B --> C[Fills Excel claim form]
-    C --> D[Emails manager]
-    D --> E{Manager Reviews}
-    E -->|Rejected| F[Email sent to employee]
-    E -->|Approved & Amount > 25k| G[Forwards to Dept Head]
-    E -->|Approved & Amount < 25k| H[Forwards to Finance]
-    G --> H
-    H --> I[Finance manually checks receipt & policy]
-    I -->|Missing Receipt| J[Hold & Email Employee]
-    I -->|Policy Violation| K[Reject & Email Employee]
-    I -->|All Clear| L[Payment Processed]
-    L --> M[Manual Data Entry into Monthly Report]
-    
-    style M fill:#ffcccc,stroke:#333,stroke-width:2px
+### Step-by-Step Flow:
+1. **Expense Incurred:** Employee spends money and collects physical receipts.
+2. **Claim Creation:** Employee fills out an Excel claim form.
+3. **Submission:** Employee emails the form and receipts to the Manager.
+4. **Manager Review:** Manager manually reviews and approves or rejects the claim.
+5. **High-Value Routing:** If the amount is above ₹25,000, the claim is forwarded to the Department Head.
+6. **Finance Review:** Finance manually verifies the receipt and checks for policy violations.
+7. **Hold/Reject:** If a receipt is missing, the claim is held. If a policy is violated, it is rejected.
+8. **Payment:** If all is clear, payment is processed.
+9. **Reporting:** Finance manually enters the data into a monthly report for Leadership (30-day lag).
 
-
+### Key Pain Points in AS-IS:
+- **No automated duplicate check:** Finance relies on manual review, leading to financial leakage.
+- **Manual receipt verification:** Finance manually checks every receipt, causing delays.
+- **Delayed reporting:** Leadership gets reports 30 days late, preventing real-time budget control.
 
 ---
 
 ## 2. TO-BE Process (Future State)
 The proposed process introduces automated checks and tiered routing to save time and reduce errors.
 
-```mermaid
-graph TD
-    A[Employee submits claim via App] --> B[System Auto-Checks]
-    B -->|Missing Receipt| C[Hold & Alert Employee]
-    B -->|Duplicate/Policy Flag| D[Route to Finance for Review]
-    B -->|All Clear| E{Amount Check}
-    
-    E -->|Under 5k| F[Auto-Approved]
-    E -->|5k to 25k| G[Manager Approval]
-    E -->|25k to 1L| H[Manager + Dept Head]
-    E -->|Above 1L| I[Manager + Dept Head + Finance Dir]
-    
-    D --> J[Finance Decision]
-    J -->|Approved| K[Payment]
-    J -->|Rejected| L[Alert Employee]
-    
-    F --> K
-    G --> K
-    H --> K
-    I --> K
-    
-    K --> M[Real-time Dashboard Updates for Leadership]
+### Step-by-Step Flow:
+1. **Digital Submission:** Employee submits a claim via a digital app and uploads the receipt.
+2. **Auto-Checks:** The system automatically checks for missing receipts, duplicate claims (via invoice matching), and policy violations.
+3. **Exception Handling:** If there is an issue, the claim is held or routed to Finance for manual review.
+4. **Tiered Approval Routing (If all checks pass):**
+   - **Under ₹5,000:** Auto-Approved.
+   - **₹5,000 to ₹25,000:** Manager Approval required.
+   - **₹25,000 to ₹1,00,000:** Manager and Dept Head approval required.
+   - **Above ₹1,00,000:** Manager, Dept Head, and Finance Director approval required.
+5. **Payment:** Once approved, payment is processed instantly.
+6. **Real-time Reporting:** The Leadership dashboard updates automatically in real-time.
 
-    style B fill:#d4edda,stroke:#28a745,stroke-width:2px
-    style M fill:#cce5ff,stroke:#007bff,stroke-width:2px
+### Key Improvements in TO-BE:
+- **Zero manual entry for small claims:** Claims under ₹5,000 are auto-approved.
+- **Instant compliance check:** System flags duplicates and missing receipts automatically.
+- **Real-time visibility:** Leadership dashboard updates instantly, no more 30-day lag.
+
+---
+
+## 3. How TO-BE Solves AS-IS Pain Points (Traceability)
+
+| AS-IS Pain Point | TO-BE Solution | Impact |
+|---|---|---|
+| Manual duplicate check | System flags potential duplicates via invoice matching | Eliminates financial leakage |
+| Finance manually verifies every receipt | Auto-hold for missing receipts | Frees up Finance team's time |
+| 30-day delayed reporting | Real-time Power BI dashboard | Instant budget visibility |
