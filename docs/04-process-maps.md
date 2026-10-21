@@ -24,3 +24,37 @@ graph TD
     L --> M[Manual Data Entry into Monthly Report]
     
     style M fill:#ffcccc,stroke:#333,stroke-width:2px
+
+
+
+
+---
+
+## 2. TO-BE Process (Future State)
+The proposed process introduces automated checks and tiered routing to save time and reduce errors.
+
+```mermaid
+graph TD
+    A[Employee submits claim via App] --> B[System Auto-Checks]
+    B -->|Missing Receipt| C[Hold & Alert Employee]
+    B -->|Duplicate/Policy Flag| D[Route to Finance for Review]
+    B -->|All Clear| E{Amount Check}
+    
+    E -->|Under 5k| F[Auto-Approved]
+    E -->|5k to 25k| G[Manager Approval]
+    E -->|25k to 1L| H[Manager + Dept Head]
+    E -->|Above 1L| I[Manager + Dept Head + Finance Dir]
+    
+    D --> J[Finance Decision]
+    J -->|Approved| K[Payment]
+    J -->|Rejected| L[Alert Employee]
+    
+    F --> K
+    G --> K
+    H --> K
+    I --> K
+    
+    K --> M[Real-time Dashboard Updates for Leadership]
+
+    style B fill:#d4edda,stroke:#28a745,stroke-width:2px
+    style M fill:#cce5ff,stroke:#007bff,stroke-width:2px
