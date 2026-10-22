@@ -14,7 +14,7 @@ The company relied on a manual, Excel-based approval process. Analyzing the data
 * **Compliance Risk:** 11% of claims violated policies, and 9% lacked mandatory receipts.
 * **Lack of Visibility:** Leadership lacked a real-time view of departmental budget utilization.
 
-## Key Analytical Findings
+## Key Analytical Findings (The "Aha" Moments)
 * **The "Long Tail" Bottleneck:** The process wasn't uniformly slow; it was dragged down by a small group of claims stuck in limbo for two weeks or more.
 * **Manager-Level Delays:** SQL analysis revealed that just 3 out of 20 managers were responsible for 40% of the total approval delays.
 * **The Compliance Trade-off:** Managers were spending too much time manually reviewing low-value claims (under ₹5,000), which inadvertently caused high-value claims to get delayed.
@@ -47,7 +47,7 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 * [08. Dashboard Design](powerbi/08-dashboard-design.md): 3-page Power BI architecture with KPI lineage.
 * [09. Data Quality Report](docs/09-data-quality-report.md): 5-point validation ensuring no logical errors.
 * [10. KPI Validation](docs/10-kpi-validation.md): Proof that dashboard metrics perfectly match SQL outputs.
-* [Python Scripts](scripts/): Scripts used to generate and validate the 5,300 claims.
+* [Python Scripts](scripts/generate_data.py): Scripts used to generate and validate the 5,300 claims.
 
 ### 4. Executive Presentation (`docs/`)
 * [16. Executive Summary](docs/16-executive-summary.md): 1-page summary and 8-slide deck outline for leadership.
@@ -58,5 +58,6 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 * **Visualization:** Power BI, Excel (Financial Modeling)
 
 ## Contact
-* **Name:** [Bittu kr. singh]
-* **Email:** [bk7808997@gmail.com]
+* **Name:** [Your Name]
+* **LinkedIn:** [Your LinkedIn Link]
+* **Email:** [Your Email]
