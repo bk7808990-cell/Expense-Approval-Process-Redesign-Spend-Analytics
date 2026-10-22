@@ -50,7 +50,7 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 * [Python Scripts](scripts/generate_data.py): Scripts used to generate and validate the 5,300 claims.
 
 ### 4. Executive Presentation (`docs/`)
-* [16. Executive Summary](docs/16-executive-summary.md): 1-page summary and 8-slide deck outline for leadership.
+* [15. Executive Summary](https://github.com/bk7808990-cell/expense-approval-analytics/blob/main/docs/15-executive-summary.md): 1-page summary and 8-slide deck outline for leadership.
 
 ## Tools & Technologies Used
 * **Business Analysis:** SCQA, RACI, BRD, RTM, Wireframing
@@ -58,6 +58,5 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 * **Visualization:** Power BI, Excel (Financial Modeling)
 
 ## Contact
-* **Name:** [Your Name]
-* **LinkedIn:** [Your LinkedIn Link]
-* **Email:** [Your Email]
+* **Name:** [Bittu kr.singh]
+* **Email:** [bk7808997@gmail.com]
