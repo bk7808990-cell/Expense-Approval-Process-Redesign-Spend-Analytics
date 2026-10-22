@@ -44,7 +44,7 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 ### 3. Data Analysis & Engineering (`sql/`, `scripts/`, `powerbi/`)
 * [07. SQL Analysis Report](docs/07-sql-analysis-report.md): Business insights derived from the data.
 * [SQL Queries](sql/01-analysis-queries.sql): 12 SQL queries used for TAT and bottleneck analysis.
-* [08. Dashboard Design](powerbi/08-dashboard-design.md): 3-page Power BI architecture with KPI lineage.
+* [08. Dashboard Design](https://github.com/bk7808990-cell/expense-approval-analytics/blob/main/powerbi/screenshots/08-dashboard-design.md): 3-page Power BI architecture with KPI lineage.
 * [09. Data Quality Report](docs/09-data-quality-report.md): 5-point validation ensuring no logical errors.
 * [10. KPI Validation](docs/10-kpi-validation.md): Proof that dashboard metrics perfectly match SQL outputs.
 * [Python Scripts](scripts/generate_data.py): Scripts used to generate and validate the 5,300 claims.
