@@ -18,5 +18,5 @@ As per the project scope, a 3-tab driver-based financial model was designed in E
 - **Worst Case:** Unchecked policy violations cause a 10% increase in high-value claims. Expected loss: ₹3,00,000.
 
 ## Key Financial Insights
-- **Insight 1:** Delivery dept exceeds budget in Q3, driven by high-value Client Entertainment (Price variance).
-- **Insight 2:** 100 duplicate claims (₹2,45,000) represent a direct margin leakage of 1.5% for Finance.
+- **Insight 1 (The Price vs Volume Gap):** The Variance Bridge reveals that actual claim volumes were *lower* than budgeted. However, the actual average price per claim was significantly higher. This proves that budget overruns were driven by **expensive claims (Price Variance)**, not by a higher frequency of claims (Volume Variance).
+- **Insight 2:** The 100 duplicate claims (worth ₹2,45,000) represent a direct margin leakage of 1.5% for the Finance department.
