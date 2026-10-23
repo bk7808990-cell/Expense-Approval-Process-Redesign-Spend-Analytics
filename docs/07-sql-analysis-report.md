@@ -20,5 +20,5 @@ This report summarizes the business insights derived from the 12 SQL queries exe
 - **Action:** Auto-reject missing receipts after 7 days. Route policy violations directly to Finance.
 
 ## 5. Budget Variance
-- **Insight:** 4 out of 6 departments exceeded their budget in the last quarter.
+- **Insight:** All 6 departments exceeded their budget. The Sales department had the highest variance (₹75.5 Lakh over budget), followed by Finance (₹48.8 Lakh). This confirms a systemic lack of budget visibility and control.
 - **Action:** Implement a 90% budget utilization alert to warn managers before they overspend.
