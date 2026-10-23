@@ -20,6 +20,14 @@ Based on the SQL analysis and bottleneck identification, the following three dat
 - **Expected Impact:** Creates accountability, reducing the pending claims queue by at least 30%.
 - **Effort:** Low. Can be built using existing Power BI infrastructure.
 
+
+## Recommendation 4: Implement Category-Wise Expense Caps
+- **The Action:** Introduce strict upper limits (caps) on specific high-risk expense categories (e.g., Client Entertainment, Travel) to control the average price per claim.
+- **Evidence (Data):** The Financial Model's Variance Bridge (`Tab 2`) proved that overspending was driven by high **Price Variance**, while Volume Variance was negative. Employees are not making more claims; they are making expensive claims.
+- **Expected Impact:** Directly controls the average actual price per claim, bringing the overall spend back within the allocated budget.
+- **Effort:** Low. Requires updating the policy engine with category limits.
+
+
 ## 4. Cost-Benefit & ROI Summary
 
 | Recommendation | Implementation Cost (Est.) | Annual Savings / Benefit | ROI Timeline |
