@@ -29,9 +29,9 @@ Based on the SQL analysis and bottleneck identification, the following three dat
 
 
 ## 4. Cost-Benefit & ROI Summary
-
 | Recommendation | Implementation Cost (Est.) | Annual Savings / Benefit | ROI Timeline |
 |---|---|---|---|
 | **1. Auto-Approval** | ₹ 50,000 (Config) | ₹ 8,00,000 (Manager time saved) | 1 Month |
 | **2. Duplicate Check** | ₹ 1,00,000 (Dev effort) | ₹ 2,45,000 (Leakage recovered) | 5 Months |
 | **3. SLA Dashboard** | ₹ 25,000 (Power BI) | Faster TAT, better compliance | Immediate |
+| **4. Category Expense Caps** | ₹ 0 (Policy update) | Brings price variance under control | Immediate |
