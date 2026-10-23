@@ -41,7 +41,10 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 * [13. Expense Policy](docs/13-expense-policy-controls.md): Internal fraud controls and Segregation of Duties (SoD) policies.
 * [06. Recommendations](docs/06-recommendations.md): Detailed cost-benefit and ROI analysis.
 
-### 3. Data Analysis & Engineering (`sql/`, `scripts/`, `powerbi/`)
+### 3. Excel Financial Model (`excel_model/`)
+* **[Financial Model (Excel)](excel_model/Expense_Approval_Financial_Model.xlsx)**: Includes 3 tabs — Budget vs Actual, Variance Bridge (Price/Volume), and Scenario Analysis (Base/Best/Worst).
+
+### 4. Data Analysis & Engineering (`sql/`, `scripts/`, `powerbi/`)
 * [07. SQL Analysis Report](docs/07-sql-analysis-report.md): Business insights derived from the data.
 * [SQL Queries](sql/01-analysis-queries.sql): 12 SQL queries used for TAT and bottleneck analysis.
 * [08. Dashboard Design](https://github.com/bk7808990-cell/expense-approval-analytics/blob/main/powerbi/screenshots/08-dashboard-design.md): 3-page Power BI architecture with KPI lineage.
@@ -49,7 +52,7 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 * [10. KPI Validation](docs/10-kpi-validation.md): Proof that dashboard metrics perfectly match SQL outputs.
 * [Python Scripts](scripts/generate_data.py): Scripts used to generate and validate the 5,300 claims.
 
-### 4. Executive Presentation (`docs/`)
+### 5. Executive Presentation (`docs/`)
 * [15. Executive Summary](https://github.com/bk7808990-cell/expense-approval-analytics/blob/main/docs/15-executive-summary.md): 1-page summary and 8-slide deck outline for leadership.
 
 ## Tools & Technologies Used
