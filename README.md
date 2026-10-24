@@ -9,7 +9,7 @@ An end-to-end business analysis and data analytics project focused on redesignin
 
 ## The Business Problem
 The company relied on a manual, Excel-based approval process. Analyzing the data revealed four critical issues:
-* **Slow Turnaround:** The average approval time was 7.2 days (P90 was 14 days).
+* **Slow Turnaround:** The average approval time was 6.51 days (P90 was 14 days).
 * **Financial Leakage:** 100 duplicate claims slipped through, causing direct financial loss.
 * **Compliance Risk:** 11% of claims violated policies, and 9% lacked mandatory receipts.
 * **Lack of Visibility:** Leadership lacked a real-time view of departmental budget utilization.
