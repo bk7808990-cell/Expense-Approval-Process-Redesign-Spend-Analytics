@@ -42,7 +42,7 @@ Based on the analysis, I proposed three actionable solutions to leadership:
 * [06. Recommendations](docs/06-recommendations.md): Detailed cost-benefit and ROI analysis.
 
 ### 3. Excel Financial Model (`excel_model/`)
-* **[Financial Model (Excel)](excel_model/Expense_Approval_Financial_Model.xlsx)**: Includes 3 tabs — Budget vs Actual, Variance Bridge (Price/Volume), and Scenario Analysis (Base/Best/Worst).
+* **[Financial Model (Excel)](https://github.com/bk7808990-cell/Expense-Approval-Process-Redesign-Spend-Analytics/blob/main/excel_model/Expense_Approval_Financial_Model.xlsx)**: Includes 3 tabs — Budget vs Actual, Variance Bridge (Price/Volume), and Scenario Analysis (Base/Best/Worst).
 
 ### 4. Data Analysis & Engineering (`sql/`, `scripts/`, `powerbi/`)
 * [07. SQL Analysis Report](docs/07-sql-analysis-report.md): Business insights derived from the data.
