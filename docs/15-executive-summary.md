@@ -1,7 +1,7 @@
 # Executive Summary & Leadership Deck
 
 ## 1. Executive Summary (1-Page Overview)
-**The Problem:** The company's manual expense approval process causes a 7.2-day average turnaround time (TAT). This delays employee reimbursements, while the company suffers financial leakage from 100 duplicate claims and an 11% policy violation rate.
+**The Problem:** The company's manual expense approval process causes a 6.51-day average turnaround time (TAT). This delays employee reimbursements, while the company suffers financial leakage from 100 duplicate claims and an 11% policy violation rate.
 
 **The Approach:** Analyzed 5,300 synthetic claims to identify bottlenecks, redesigned the workflow (AS-IS to TO-BE), and built a decision-first Power BI dashboard backed by 12 SQL queries and a Financial Variance Model.
 
@@ -11,7 +11,7 @@
 3. Implement a manager-level SLA dashboard.
 4. Implement Category-Wise Expense Caps to control high Price Variance.
 
-**The Impact:** Projected to reduce TAT from 7.2 to 5.0 days, eliminate duplicate leakage, control expensive claims, and provide real-time compliance visibility to leadership.
+**The Impact:** Projected to reduce TAT from 6.51 to 5.0 days, eliminate duplicate leakage, control expensive claims, and provide real-time compliance visibility to leadership.
 
 ---
 
@@ -23,7 +23,7 @@
   - Context: Mid-size IT services firm with a manual process.
 
 - **Slide 2: The Problem (Data-Backed)**
-  - 7.2-day average TAT (P90 is 14 days).
+  - 6.51-day average TAT (P90 is 14 days).
   - 100 duplicates causing financial leakage.
   - 11% policy violations.
 
