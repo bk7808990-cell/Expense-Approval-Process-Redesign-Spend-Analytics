@@ -10,7 +10,7 @@ Employees submit expense claims manually. Managers approve them via email, and t
 
 **Complication:** 
 This manual workflow is slow and lacks visibility. Analysis of 5,300 simulated claims reveals three critical issues:
-- **Slow Processing:** The average approval time is 7.2 days.
+- **Slow Processing:** The average approval time is 6.51 days.
 - **Compliance Risk:** 11% of claims violate policy rules, and 9% are submitted without receipts.
 - **Financial Leakage:** 100 claims (2%) are duplicate submissions that went undetected.
 
