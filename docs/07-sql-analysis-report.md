@@ -3,7 +3,7 @@
 This report summarizes the business insights derived from the 12 SQL queries executed on the 5,300 claims dataset.
 
 ## 1. Turnaround Time (TAT) Analysis
-- **Insight:** Avg TAT is 7.2 days. However, P90 is 14 days. The process is dragged down by a "long tail" of claims stuck for 2+ weeks.
+- **Insight:** Avg TAT is 6.51 days. However, P90 is 14 days. The process is dragged down by a "long tail" of claims stuck for 2+ weeks.
 - **Action:** Focus on unblocking the tail rather than speeding up every small claim.
 
 ## 2. Bottleneck Identification
